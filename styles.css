@@ -23,7 +23,7 @@ a {
 body {
   font-family: "Poppins", sans-serif;
 }
-
+/* sds */
 nav {
   width: 100%;
   position: fixed;
@@ -150,7 +150,23 @@ ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-
+.figma{
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 70px;
+  transition: 0.3s;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+.figma:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
 .hire__me {
   background-color: var(--primary-color);
   color: #ffffff;
@@ -161,7 +177,7 @@ ul li a:hover {
 }
 
 .portfolio {
-  color: var(--primary-color);
+  color: #ffffff;
 }
 
 .portfolio:hover {
@@ -318,7 +334,7 @@ ul li a:hover {
 }
 
 .portfolio {
-  background-color: var(--extra-light);
+  background-color: var(--primary-color);
   padding: 4rem 1rem;
 }
 
